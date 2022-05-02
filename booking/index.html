@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/logos/V.ico" type="image/x-icon">
+    <link rel="icon" type="image/svg+xml" href="/assets/logos/V.svg">
+    <title>ValentinaGuestHouse</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/room_selection/style.css">
+    <link rel="stylesheet" href="../assets/css/booking/style.css">
+  </head>
+  <body>
+
+    <section class="progress_bar">
+      <div class="container">
+        <ul>
+          <li>
+            <div class="progress_bar__line left_line progress_reached"></div>
+            <div class="progress_bar__circle progress_reached"></div>
+            <div class="progress_bar__line"></div>
+            <div class="progress_bar__label progress_reached">
+              Номер и Цена
+            </div>
+          </li>
+          <li>
+            <div class="progress_bar__line"></div>
+            <div class="progress_bar__circle"></div>
+            <div class="progress_bar__line"></div>
+            <div class="progress_bar__label">
+              Бронь и Оплата
+            </div>
+          </li>
+          <li>
+            <div class="progress_bar__line"></div>
+            <div class="progress_bar__circle"></div>
+            <div class="progress_bar__line right_line"></div>
+            <div class="progress_bar__label">
+              Подтверждение
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="container">
+
+        <div class="booking_container">
+          <form class="booking_form">
+            <div class="back_button">
+              <button type="button" name="back-button">
+                &#8592;
+              </button>
+            </div>
+            <div class="booking_form__logo">
+              <h1>Valentina Guest House</h1>
+            </div>
+            <div class="booking_form__main_information">
+              <h1 class="room_type">2-х местный</h1>
+              <p class="room_price">2 996,00 руб</p>
+            </div>
+            <fieldset class="number_of_rooms_and_guests">
+              <div class="relative_input">
+                <input type="number" name="number_of_rooms" placeholder="Количество номеров" min="1" max="5">
+                <span class="input_spin_button_icon"></span>
+              </div>
+              <div class="relative_input">
+                <input type="number" name="number_of_adults" placeholder="2 взрослых">
+                <span class="input_spin_button_icon"></span>
+              </div>
+              <div class="relative_input">
+                <input type="number" name="number_of_guests" placeholder="2 гостя">
+                <span class="input_spin_button_icon"></span>
+              </div>
+            </fieldset>
+            <label class="about_guest">
+              <h1>Информация о госте</h1>
+              <fieldset>
+                <ul class="about_guest__left_side">
+                  <li>
+                    <input type="text" name="surname" placeholder="Фамилия">
+                  </li>
+                  <li>
+                    <input type="text" name="firstname" placeholder="Имя">
+                  </li>
+                  <li>
+                    <input type="text" name="patronymic" placeholder="Отчество">
+                  </li>
+                  <li>
+                    <input type="email" name="email" placeholder="E-mail">
+                  </li>
+                  <li>
+                    <input type="phone" name="home_phone_number" placeholder="Домашний телефон">
+                  </li>
+                  <li>
+                    <input type="phone" name="mobail_phone_number" placeholder="Мобильный телефон">
+                  </li>
+                  <li>
+                    <input type="text" name="city" placeholder="Город">
+                  </li>
+                  <li>
+                    <label class="checkbox_label">
+                      <input type="checkbox" name="pay_later" class="checkbox_checked" checked="checked">
+                      <span>Оплатить позже</span>
+                    </label>
+                  </li>
+                </ul>
+                <div class="about_guest__right_side">
+                  <textarea name="special_requests" placeholder="Особые пожелания"></textarea>
+                </div>
+                <label class="submit_label">
+                  <input type="button" name="booking" value="Отправить">
+                  <p>Нажмите отправить, что бы получить сведения об оплате </p>
+                </label>
+              </fieldset>
+            </label>
+          </form>
+
+          <div class="paying_information">
+            <div class="paying_information_inner">
+              <h1>Сведения об оплате</h1>
+              <ul class="paying_information__check">
+                <li>
+                  <h2>Ваше полное имя:</h2>
+                  <p>Шикуть Максим Викторович</p>
+                </li>
+                <li>
+                  <h2>Email:</h2>
+                  <p>maxim.shykuts@gmail.com</p>
+                </li>
+                <li>
+                  <h2>Мобильный телефон:</h2>
+                  <p>7457725473</p>
+                </li>
+                <li>
+                  <h2>Заезд:</h2>
+                  <p>05-04-2021</p>
+                </li>
+                <li>
+                  <h2>Выезд:</h2>
+                  <p>07-04-2021</p>
+                </li>
+                <li>
+                  <h2>Способ оплаты:</h2>
+                  <p>Оплатить позже</p>
+                </li>
+              </ul>
+              <table class="paying_information__summary">
+                <tr>
+                  <td><p>2-х местный</p></td>
+                  <td><p>2 ночи</p></td>
+                  <td><p>2 996,00 руб</p></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Итого цена за номер (с налогами)</td>
+                  <td>2 996,00 руб</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Общая сумма</td>
+                  <td>2 996,00 руб</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Размер депозита</td>
+                  <td>898,80 руб</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Сумма к оплате</td>
+                  <td>2 097,20 руб</td>
+                </tr>
+              </table>
+              <form class="booking_completion">
+                <label class="checkbox_label completion_checkbox">
+                  <input type="checkbox" class="checkbox_checked" checked="checked">
+                  <span>Я согласен с <a href="#">Правилами бронирования</a> и <a href="#">Политикой конфиденциальности</a></span>
+                </label>
+                <label class="submit_label completion_submit_label">
+                  <input type="submit" name="booking_completion" value="Завершить">
+                  <p>Пожалуйста, ознакомьтесь с деталями бронирования и нажмите на кнопку рядом, чтобы завершить. На указанный вами почтовый адрес будет выслано подтверждение</p>
+                </label>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+  <script src="bookingPayingInformationWrapper.js"></script>
+  </body>
+</html>

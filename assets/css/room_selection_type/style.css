@@ -1,0 +1,50 @@
+.room_type_about {
+  margin-top: 42px;
+}
+
+.room_type_about__inner {
+  padding: 0 112px;
+}
+
+.room_type_about__label {
+  height: 43px;
+  background: #FFB23F;
+  padding-left: 40px;
+  padding-top: 8px;
+}
+
+.room_type_about__label h1 {
+  margin: 0;
+  text-align: left;
+  vertical-align: super;
+  font-weight: 600;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.room_type_about__description {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room_type_about__description_left,
+.room_type_about__description_right {
+  width: 435px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #676767;
+}
+
+.room_type_about__description_right li {
+  margin-bottom: 14px;
+}
+
+.room_type_about__description_right li:last-child {
+  margin-bottom: 0;
+}
+
+/* Сделать имитацию контейнера с position: absolute; с цветом FFF и с width: 1260px; позади всех блоков
+Сделать блок на заднем плане position: absolute; и цветом background: #FBFBFB; или применитьельно к body
+ */

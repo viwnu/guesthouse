@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/logos/V.ico" type="image/x-icon">
+    <link rel="icon" type="image/svg+xml" href="/assets/logos/V.svg">
+    <title>ValentinaGuestHouse</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <ul class="header__contacts">
+            <li class="address header_adress">
+              <a href="https://yandex.ru/maps/-/CCU5eHa-0A">
+                <img src="assets\logos\adress_logo.svg" alt="">
+                Абхазия, Цандрыпш, ул.Октябрьская, д.492
+              </a>
+            </li>
+            <li class="email header_email">
+              <a href="mailto: booking@valentinahouse.ru">
+                <img src="assets\logos\mail_logo.svg" alt="">
+                booking@valentinahouse.ru
+              </a>
+            </li>
+            <li class="phone header_phone">
+              <a href="tel:88622795689">
+                <img src="assets\logos\phone_logo.svg" alt="">
+                8 (862) 279-56-89
+              </a>
+            </li>
+          </ul>
+          <input id="menu-toggle" type="checkbox"/>
+          <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+          <a class="logo" href="#">
+            <p>Valentina Guest House</p>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">ГЛАВНАЯ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">НОМЕРА И ЦЕНЫ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">СТАТЬИ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/about">ИНФОРМАЦИЯ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">ПОЛНЫЙ ПАНСИОН</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="menu-socials">
+            <ul class="menu-socials__list">
+              <li class="menu-socials__item">
+                <a class="menu-socials__link" href="#">
+                  <img class="menu-socials__link_logo" src="assets\logos\telegram_logo_blue.svg" alt="">
+                </a>
+              </li>
+              <li class="menu-socials__item">
+                <a class="menu-socials__link" href="#">
+                  <img class="menu-socials__link_logo" src="assets\logos\whatsup_logo_blue.svg" alt="">
+                </a>
+              </li>
+              <li class="menu-socials__item">
+                <a class="menu-socials__link" href="#">
+                  <img class="menu-socials__link_logo" src="assets\logos\fasebook_logo_blue.svg" alt="">
+                </a>
+              </li>
+              <li class="menu-socials__item">
+                <a class="menu-socials__link" href="#">
+                  <img class="menu-socials__link_logo" src="assets\logos\vk_logo_blue.svg" alt="">
+                </a>
+              </li>
+              <li class="menu-socials__item">
+                <a class="menu-socials__link" href="#">
+                  <img class="menu-socials__link_logo" src="assets\logos\instagram_logo_blue.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="start-page">
+
+      <div class="container">
+        <div class="start-page__inner">
+          <form class="start-page__inner_booking start-booking" action="#" method="post">
+            <fieldset>
+              <div class="">
+                <label for="">Даты заезда</label>
+                <div class="date-field">
+                  <input type="date" name="calendar">
+                  <span class="date-picker-icon">
+                    <svg width="22" height="22" fill="currentColor" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.66675 2.74999H4.58341V0.916656H6.41675V2.74999H15.5834V0.916656H17.4167V2.74999H18.3334C19.3417 2.74999 20.1667 3.57499 20.1667 4.58332V19.25C20.1667 20.2583 19.3417 21.0833 18.3334 21.0833H3.66675C2.65841 21.0833 1.83341 20.2583 1.83341 19.25V4.58332C1.83341 3.57499 2.65841 2.74999 3.66675 2.74999ZM3.66675 19.25H18.3334V7.33332H3.66675V19.25Z"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="">
+                <label for="">Даты выезда</label>
+                <div class="date-field">
+                  <input type="date" name="calendar">
+                  <span class="date-picker-icon">
+                    <svg width="22" height="22" fill="currentColor" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.66675 2.74999H4.58341V0.916656H6.41675V2.74999H15.5834V0.916656H17.4167V2.74999H18.3334C19.3417 2.74999 20.1667 3.57499 20.1667 4.58332V19.25C20.1667 20.2583 19.3417 21.0833 18.3334 21.0833H3.66675C2.65841 21.0833 1.83341 20.2583 1.83341 19.25V4.58332C1.83341 3.57499 2.65841 2.74999 3.66675 2.74999ZM3.66675 19.25H18.3334V7.33332H3.66675V19.25Z"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="">
+                <label for="">Гостей</label>
+                <div class="guests_field">
+                  <input type="number" name="" value="">
+                  <span class="guests-picker-icon">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.33333 16C1.33333 16 0 16 0 14.6667C0 13.3333 1.33333 9.33333 8 9.33333C14.6667 9.33333 16 13.3333 16 14.6667C16 16 14.6667 16 14.6667 16H1.33333ZM8 8C9.06087 8 10.0783 7.57857 10.8284 6.82843C11.5786 6.07828 12 5.06087 12 4C12 2.93913 11.5786 1.92172 10.8284 1.17157C10.0783 0.421427 9.06087 0 8 0C6.93913 0 5.92172 0.421427 5.17157 1.17157C4.42143 1.92172 4 2.93913 4 4C4 5.06087 4.42143 6.07828 5.17157 6.82843C5.92172 7.57857 6.93913 8 8 8Z"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <input type="submit" name="" value="Проверить" class="start_page_search_button">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="rooms-clasification">
+      <div class="container">
+        <h1>НАШИ НОМЕРА</h1>
+        <ul class="rooms-list">
+          <li class="rooms-list__item room_type1">
+            <div class="rooms-list__description">
+              <a href="#">
+                <h2>2-х местный</h2>
+                <ul>
+                  <li>Площадь номера: 11 м2</li>
+                  <li>1 двуспальная кровать или 2 односпальные кровати</li>
+                  <li>Кондиционер</li>
+                  <li>Интернет</li>
+                  <li>Телевизор</li>
+                </ul>
+              </a>
+            </div>
+          </li>
+          <li class="rooms-list__item room_type2">
+            <div class="rooms-list__description">
+              <a href="#">
+                <h2>Семейный</h2>
+                <ul>
+                  <li>Площадь номера: 18 м2</li>
+                  <li>1 двуспальная кровать или 1 односпальная кровать </li>
+                  <li>Кондиционер</li>
+                  <li>Интернет</li>
+                  <li>Телевизор</li>
+                </ul>
+              </a>
+            </div>
+          </li>
+          <li class="rooms-list__item room_type3">
+            <div class="rooms-list__description">
+              <a href="#">
+                <h2>Deluxe</h2>
+                <ul>
+                  <li>Площадь номера: 30 м2</li>
+                  <li>1 двуспальная кровать или 1 раскладной диван</li>
+                  <li>Кондиционер</li>
+                  <li>Интернет</li>
+                  <li>Телевизор</li>
+                  <li>2 комнаты</li>
+                </ul>
+              </a>
+            </div>
+          </li>
+          <li class="rooms-list__item room_type4">
+            <div class="rooms-list__description">
+              <a href="#">
+                <h2>Deluxe Plus</h2>
+                <ul>
+                  <li>Площадь номера: 45 м2</li>
+                  <li>2 односпальные кровати, 1 двуспальная кровать, 1 диван</li>
+                  <li>Кондиционер</li>
+                  <li>Интернет</li>
+                  <li>Телевизор</li>
+                  <li>3 комнаты</li>
+                </ul>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h1>ГОСТЕВОЙ ДОМ «Valentina Guest House» , Абхазия </h1>
+        <div class="about-description">
+          <p class="about-description__owner">
+            <img src="/assets/img/owner.jpg" alt="">
+          </p>
+          <p class="about-description__text">
+            Дорогие гости,
+            <br>
+            Безопасность и комфорт гостей и персонала – это приоритет нашей работы.
+            <br><br>
+            Мы круглосуточно следим за тем, что Министерство здравоохранения Российской Федерации, Федеральная служба по надзору в сфере защиты прав потребителей и Всемирная организация здравоохранения сообщают о распространении нового типа коронавируса (COVID-19) и беспрекословно выполняем рекомендации этих организаций и местных органов здравоохранения.<br>
+            <br>
+            Мы искренне сочувствуем всем, кого коснулось это бедствие и с огромным уважением относимся к врачам, местным сообществам и правительствам, которые задействованы в прямой борьбе с распространением коронавируса.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="fidback">
+      <div class="container">
+        <div class="fidback_inner">
+          <h1>ОТЗЫВЫ О НАС</h1>
+          <div class="fidback__slider">
+            <div class="fidback__text">
+              <p class="fidback__text-content">Все было прекрасно! Отличный номер, уютный и комфортный; в номере чисто, все в рабочем состоянии!</p>
+              <p class="fidback__user">Vera</p>
+            </div>
+            <div class="fidback__text">
+              <p class="fidback__text-content">Все было прекрасно! Отличный номер, уютный и комфортный; в номере чисто, все в рабочем состоянии!</p>
+              <p class="fidback__user">Vera</p>
+            </div>
+          </div>
+          <div class="fidback__controller">
+            <button type="button" name="fidback-prev-button"></button>
+            <button type="button" name="fidback-next-button"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <ul class="footer">
+          <li class="footer__geo footer__item">
+            <h2>Геолокация</h2>
+            <div class="footer__map" id="map">
+              <a href="https://yandex.ru/maps/-/CCU5eHa-0A">
+                <!-- <img src="https://static.maps.2gis.com/1.0?s=245x173&c=43.3810255,40.0543392&z=16&pt=43.3810255,40.0543392" alt=""> -->
+                <img src="/assets/img/map.svg" alt="">
+              </a>
+              </div>
+          </li>
+          <li class="footer__contacts  footer__item">
+            <h2>Контакты</h2>
+            <ul>
+              <li class="address">
+                <a href="https://yandex.ru/maps/-/CCU5eHa-0A">
+                  <img src="assets\logos\adress_logo_white.svg" alt="">
+                  <p>Абхазия, Цандрыпш,<br>ул.Октябрьская, д.492</p>
+                </a>
+              </li>
+              <li class="email">
+                <a href="mailto: booking@valentinahouse.ru">
+                  <img src="assets\logos\mail_logo_white.svg" alt="">
+                  <p>booking@valentinahouse.ru</p>
+                </a>
+              </li>
+              <li class="phone">
+                <a href="tel:88622795689">
+                  <img src="assets\logos\phone_logo_white.svg" alt="">
+                  <p>8 (862) 279-56-89</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__information  footer__item">
+            <h2>Информация</h2>
+            <ul>
+              <li>Заезд: с 16:00</li>
+              <li>Выезд: до 12:00</li>
+              <li>Бесплатный WI-FI</li>
+              <li>Бесплатная парковка</li>
+              <li>
+                <a href="#">О нас</a>
+              </li>
+              <li>
+                <a href="#">Условия бронирования</a>
+              </li>
+              <li>
+                <a href="#">Политика конфиденциальности</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__weaver  footer__item">
+            <h2>Погода</h2>
+            <p>Яндекс.Погода: +17</p>
+          </li>
+          <li class="footer__socials  footer__item">
+            <nav class="menu-socials">
+              <ul class="menu-socials__list">
+                <li class="menu-socials__item">
+                  <a class="menu-socials__link" href="#">
+                    <img class="menu-socials__link_logo" src="assets\logos\telegram_logo_white.svg" alt="">
+                  </a>
+                </li>
+                <li class="menu-socials__item">
+                  <a class="menu-socials__link" href="#">
+                    <img class="menu-socials__link_logo" src="assets\logos\whatsup_logo_white.svg" alt="">
+                  </a>
+                </li>
+                <li class="menu-socials__item">
+                  <a class="menu-socials__link" href="#">
+                    <img class="menu-socials__link_logo" src="assets\logos\fasebook_logo_white.svg" alt="">
+                  </a>
+                </li>
+                <li class="menu-socials__item">
+                  <a class="menu-socials__link" href="#">
+                    <img class="menu-socials__link_logo" src="assets\logos\vk_logo_white.svg" alt="">
+                  </a>
+                </li>
+                <li class="menu-socials__item">
+                  <a class="menu-socials__link" href="#">
+                    <img class="menu-socials__link_logo" src="assets\logos\instagram_logo_white.svg" alt="">
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-credits">
+        <p>© 2015–2021 – VALENTINA GUEST HOUSE</p>
+      </div>
+    </footer>
+
+    <script src="date.js"></script>
+    <script src="mySliderStart.js"></script>
+    <script src="mainPageSlider.js"></script>
+  </body>
+</html>

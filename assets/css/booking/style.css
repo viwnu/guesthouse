@@ -1,0 +1,446 @@
+h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #585858;
+}
+
+.booking {
+  margin-top: 60px;
+}
+
+.booking_container {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.booking_form__logo {
+  background: #FFB23F;
+  padding: 13px 0;
+}
+
+.booking_form__logo h1 {
+  margin: auto;
+  width: 135px;
+  font-weight: 800;
+  color: #FFFFFF;
+
+}
+
+.booking_form__main_information {
+  margin: 40px auto 0 auto;
+}
+
+.booking_form__main_information h1,
+.booking_form__main_information p {
+  margin: 0;
+}
+
+.number_of_rooms_and_guests {
+  display: block;
+  margin: auto;
+  margin-top: 46px;
+  width: 798px;
+  height: 36px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.number_of_rooms_and_guests input {
+  margin: 0;
+  width: 260px;
+  height: 100%;
+  border: 1px solid #D9D9D9;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+
+.relative_input {
+  position: relative;
+  margin-right: 9px;
+}
+
+.relative_input:last-child {
+  margin-right: 0;
+}
+
+.input_spin_button_icon {
+  position: absolute;
+  transform:translate(-230%, 60%);
+  width: 14px;
+  height: 15px;
+  background: url("../../logos/booking/input_spin_button_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+
+
+
+
+.about_guest h1 {
+  margin: 0;
+  margin-top: 40px;
+}
+
+.about_guest fieldset {
+  margin: auto;
+  margin-top: 8px;
+  width: 798px;
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about_guest__left_side {
+  margin: 0;
+}
+
+.about_guest__left_side li {
+  margin: 0;
+  margin-bottom: 14px;
+  width: 260px;
+  height: 36px;
+}
+
+.about_guest__left_side li:last-child {
+  margin-bottom: 0;
+}
+
+.about_guest__left_side input {
+  width: inherit;
+  height: inherit;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+
+.about_guest__right_side {
+  margin: 0;
+  margin-left: 9px;
+}
+
+.about_guest__right_side textarea {
+  margin: 0;
+  width: 529px;
+  height: 336px;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  resize: none;
+  padding-top: 8px;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+
+.about_guest__left_side li:last-child {
+  margin-top: 16px;
+}
+
+.checkbox_label {
+  margin-left: 0;
+  margin-top: 16px;
+  display: flex;
+}
+
+.checkbox_label input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #D9D9D9;
+  appearance: none;
+}
+
+.checkbox_unchecked {
+  background: #F6F6F6;
+}
+
+.checkbox_checked {
+  background: url("../../logos/booking/pay_later_checked_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkbox_label span {
+  margin-left: 12px;
+  text-align: left;
+  vertical-align: super;
+  font-weight: 500;
+  font-size: 16px;
+  color: #585858;
+}
+
+.submit_label {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.submit_label input {
+  margin: 0;
+  width: 180px;
+  height: 40px;
+  background: #3F8CFF;
+  border: none;
+  box-shadow: 0px 2px 20px rgba(63, 140, 255, 0.5);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.submit_label p {
+  margin-top: 8px;
+  width: 189px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ABABAB;
+
+}
+
+.paying_information {
+  margin-top: 24px;
+  background: #F9F9F9;
+  padding-top: 11px;
+  display: flex;
+  justify-content: center;
+}
+
+.paying_information_inner {
+  width: 798px;
+}
+
+.paying_information__check {
+  margin-top: 24px;
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+
+  color: #777777;
+}
+
+.paying_information__check h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.paying_information__check p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.paying_information__check li {
+  margin-bottom: 10px;
+  width: 266px;
+}
+
+.paying_information__summary {
+  margin-top: 12px;
+  border-collapse: collapse;
+
+}
+
+.paying_information__summary td {
+  width: 266px;
+  height: 25px;
+  padding-left: 12px;
+  vertical-align: bottom;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+}
+
+.paying_information__summary tr:first-child td {
+  height: 50px;
+
+}
+
+.paying_information__summary tr:first-child {
+  margin-bottom: 4px;
+  height: 50px;
+  background: #FFB23F;
+
+}
+
+
+.paying_information__summary tr:first-child p {
+  width: inherit;
+  line-height: 35px;
+  border-right: 1px solid white;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.paying_information__summary td:nth-child(3) p  {
+  border: none;
+}
+
+.booking_completion {
+  margin-top: 50px;
+}
+
+.completion_checkbox span,
+.completion_checkbox a {
+  font-size: 12px;
+  color: #777777;
+}
+
+.completion_submit_label {
+  margin-top: 30px;
+}
+
+.completion_submit_label p {
+  width: 637px;
+  margin-bottom: 24px;
+}
+
+
+@media (max-width: 1024px) {
+  .number_of_rooms_and_guests {
+    width: 100%;
+    justify-content: center;
+  }
+  .relative_input {
+    width: 28%;;
+  }
+  .relative_input:last-child {
+    margin-right: 9px;
+  }
+  .number_of_rooms_and_guests input {
+    width: 100%;
+  }
+  .input_spin_button_icon {
+    transform: translate(-130%, 65%);
+  }
+
+  .about_guest fieldset {
+    width: auto;
+  }
+  .paying_information_inner {
+    width: 100%;
+  }
+  .paying_information__check {
+    margin-left: 5%;
+
+  }
+  .paying_information__check li {
+    width: 32%;
+  }
+  .paying_information__summary {
+    width: 100%;
+  }
+  .paying_information__summary td {
+    width: auto;
+  }
+  .checkbox_label {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking {
+    margin: 0;
+  }
+  .booking_form__logo {
+    display: none;
+  }
+  button[name = "back-button"] {
+    margin-top: 2%;
+    margin-left: 3%;
+    border-color: black;
+    color: black;
+  }
+  .booking_form__main_information {
+    margin: 0;
+  }
+  .number_of_rooms_and_guests {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .relative_input {
+    height: 36px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .about_guest fieldset {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_guest__left_side {
+    width: 90%;
+  }
+  .about_guest__left_side li {
+    width: 100%;
+  }
+  .about_guest__right_side {
+    width: 90%;
+    margin: 0;
+  }
+  .about_guest__right_side textarea {
+    width: 100%;
+  }
+  .submit_label input {
+    disabled: disabled;
+  }
+  .paying_information {
+    display: none;
+  }
+  .paying_information__check {
+    margin: auto;
+    width: 90%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .paying_information__check li {
+    width: 100%;
+  }
+  .paying_information__summary tbody {
+    width: 90%;
+    margin: auto;
+  }
+  .paying_information__summary tr:first-child p {
+    font-size: 14px;
+    line-height: 17px;
+    border-right: none;
+  }
+  .booking_completion {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .checkbox_label {
+      margin-left: auto;
+  }
+  .completion_submit_label p {
+    width: 100%;
+  }
+}
